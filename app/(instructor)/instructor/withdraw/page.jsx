@@ -3,7 +3,6 @@ import '@/public/css/payment-card.css';
 import { Withdraw } from "./_components/Withdraw";
 import useUtility from "@/app/_hooks/useUtility";
 
-export const dynamic = 'force-dynamic';
 export const metadata = getMetaTitle('Withdraw');
 
 export default async function Page() {
