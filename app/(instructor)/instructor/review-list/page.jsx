@@ -2,6 +2,7 @@ import React from 'react'
 import ReviewList from './_component/ReviewList'
 import { getMetaTitle } from '@/lib/helpers';
 
+export const dynamic = 'force-dynamic';
 export const metadata = getMetaTitle('Reviews');
 export default function Reviews() {
     return (

@@ -5,7 +5,7 @@ import { getSEO, getTitle } from '@/lib/helpers';
 import ENDPOINTS from '@/lib/endpoints';
 import { notFound } from 'next/navigation';
 
-
+export const dynamic = 'force-dynamic';
 
 export async function generateMetadata(props) {
     const params = await props.params;

@@ -2,6 +2,7 @@ import PageContent from "@/app/_partials/PageContent";
 import { customPageData, getSEO, getTitle } from "@/lib/helpers";
 import { notFound } from "next/navigation";
 
+export const dynamic = 'force-dynamic';
 
 export async function generateMetadata(props) {
     const params = await props.params;

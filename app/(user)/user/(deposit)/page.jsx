@@ -3,6 +3,7 @@ import { getMetaTitle } from "@/lib/helpers";
 import { Deposit } from "./_components/Deposit";
 
 export const metadata = getMetaTitle('Deposit');
+export const dynamic = 'force-dynamic';
 
 export default async function Page() {
     return (

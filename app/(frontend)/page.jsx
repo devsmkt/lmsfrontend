@@ -4,6 +4,8 @@ import PageContent from '../_partials/PageContent';
 import Banner from '../_partials/_sections/Banner';
 import { notFound } from 'next/navigation';
 
+export const dynamic = 'force-dynamic';
+
 export async function generateMetadata({ params }) {
   const page = await customPageData('home');
   if (page.remark == 'page_not_found') {

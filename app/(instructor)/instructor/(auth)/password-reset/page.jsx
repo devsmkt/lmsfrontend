@@ -1,6 +1,7 @@
 import { getMetaTitle } from "@/lib/helpers";
 import ResetForm from "./_components/ResetForm";
 
+export const dynamic = 'force-dynamic';
 export const metadata = getMetaTitle('Password Reset');
 
 export default function PasswordReset() {
