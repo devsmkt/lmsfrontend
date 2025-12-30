@@ -1,4 +1,3 @@
-"use client"
 import React from 'react'
 import { customPageData, getSEO, getTitle } from '@/lib/helpers';
 
