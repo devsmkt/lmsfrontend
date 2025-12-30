@@ -4,6 +4,7 @@ import SocialForm from './_component/SocialForm'
 import PasswordForm from './_component/PasswordForm'
 import { getMetaTitle } from '@/lib/helpers';
 
+export const dynamic = 'force-dynamic';
 export const metadata = getMetaTitle('Settings');
 export default function Settings() {
   return (

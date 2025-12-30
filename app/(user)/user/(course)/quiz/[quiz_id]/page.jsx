@@ -4,6 +4,7 @@ import { getMetaTitle } from "@/lib/helpers";
 import { notFound } from "next/navigation";
 
 export const metadata = getMetaTitle('Quiz');
+export const dynamic = 'force-dynamic';
 
 
 export default async function page(props) {

@@ -2,6 +2,7 @@ import { getMetaTitle } from "@/lib/helpers";
 import KYCForm from "./_components/KYCForm";
 
 export const metadata = getMetaTitle('KYC Verification');
+export const dynamic = 'force-dynamic';
 
 export default function KYCVerification() {
     return (

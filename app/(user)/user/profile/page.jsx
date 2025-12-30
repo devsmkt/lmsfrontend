@@ -2,6 +2,7 @@ import ProfileForm from "./_components/ProfileForm";
 import { getMetaTitle } from "@/lib/helpers";
 
 export const metadata = getMetaTitle('Profile');
+export const dynamic = 'force-dynamic';
 
 export default function Profile() {
     

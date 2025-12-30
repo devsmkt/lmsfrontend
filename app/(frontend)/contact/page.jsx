@@ -5,6 +5,8 @@ import PageContent from "../../_partials/PageContent";
 
 import { notFound } from "next/navigation";
 
+export const dynamic = 'force-dynamic';
+
 export const metadata = getMetaTitle("Contact");
 
 export default async function Contact() {

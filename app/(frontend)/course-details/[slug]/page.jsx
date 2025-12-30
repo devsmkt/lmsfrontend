@@ -4,7 +4,7 @@ import CourseDetails from '../CourseDetails'
 import { getCourseDetails, getCourseImage, getSEO, getTitle, request } from '@/lib/helpers';
 import ENDPOINTS from '@/lib/endpoints';
 
-
+export const dynamic = 'force-dynamic';
 
 export async function generateMetadata(props) {
     const params = await props.params;

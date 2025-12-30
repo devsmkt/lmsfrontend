@@ -3,7 +3,7 @@ import React from 'react'
 import Curriculum from '../../_components/Curriculum';
 import { getMetaTitle } from '@/lib/helpers';
 
-  
+export const dynamic = 'force-dynamic';
 export const metadata = getMetaTitle('Course Curriculum');
 
 

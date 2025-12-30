@@ -3,9 +3,9 @@ import { getBlogDetails } from "../_hooks/BlogDetails";
 import BlogDetailsClient from "../BlogDetailsClient";
 import { frontendImage, getSEO, getTitle } from "@/lib/helpers";
 
-
 import { notFound } from 'next/navigation';
 
+export const dynamic = 'force-dynamic';
 
 const data = cache(async ({ slug }) => {
     return await getBlogDetails({ slug });
