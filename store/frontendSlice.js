@@ -40,7 +40,8 @@ const frontendSlice = createSlice({
 
 export const selectSectionByKey = (state, key) => {
     if(state?.frontend?.sections?.remark == 'maintenance_mode') return [];
-    return (state?.frontend?.sections ?? [])?.find(s => s.key === key);
+    const sectionsData = state?.frontend?.sections?.data?.sections || state?.frontend?.sections;
+    return Array.isArray(sectionsData) ? sectionsData.find(s => s.key === key) : null;
 };
 
 export default frontendSlice.reducer;

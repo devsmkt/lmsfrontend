@@ -41,7 +41,7 @@ const ValidateLogin = () => {
     useEffect(() => {
         const fetch = async () => {
             if (!session) {
-                const tokenUrl = process.env.NEXT_PUBLIC_AUTH_PREFIX == '/' ? "/api/token" : (process.env.NEXT_PUBLIC_AUTH_PREFIX + "/api/token");
+                const tokenUrl = process.env.NEXT_PUBLIC_AUTH_PREFIX == '/' ? "/internal-api/token" : (process.env.NEXT_PUBLIC_AUTH_PREFIX + "/internal-api/token");
                 const response = await axios.get(tokenUrl);
                 if (response.data.session) {
                     const data = response.data.session;
