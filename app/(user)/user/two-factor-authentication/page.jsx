@@ -2,7 +2,6 @@ import { getMetaTitle } from "@/lib/helpers";
 import TwoFaContent from './_components/TwoFaContent';
 
 export const metadata = getMetaTitle('Two Factor Authentication');
-export const dynamic = 'force-dynamic';
 export default function page() {
     return (
         <>

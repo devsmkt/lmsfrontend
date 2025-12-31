@@ -2,7 +2,6 @@ import ConfirmationCard from "./_components/ConfirmationCard";
 import { getMetaTitle } from "@/lib/helpers";
 
 export const metadata = getMetaTitle('Payment Confirmation');
-export const dynamic = 'force-dynamic';
 
 export default function Confirmation() {
 

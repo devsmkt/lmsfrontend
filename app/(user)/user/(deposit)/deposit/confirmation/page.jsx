@@ -4,7 +4,6 @@ import ConfirmationCard from "../../payment/confirmation/_components/Confirmatio
 
 
 export const metadata = getMetaTitle('Deposit Confirmation');
-export const dynamic = 'force-dynamic';
 
 export default function Confirmation() {
 

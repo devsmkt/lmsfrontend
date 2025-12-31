@@ -1,7 +1,6 @@
 import { getMetaTitle } from "@/lib/helpers";
 import KYCData from "./_components/KYCData";
     
-export const dynamic = 'force-dynamic';
 export const metadata = getMetaTitle('KYC Data');
 
 export default function KycData() {

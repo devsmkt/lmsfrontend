@@ -3,7 +3,8 @@ import Course from '../_component/Course';
 import ENDPOINTS from '@/lib/endpoints';
 import { getCourseImage, getSEO, getTitle } from '@/lib/helpers';
 
-export const dynamic = 'force-dynamic';
+
+
 
 export async function generateMetadata(props) {
     const params = await props.params;

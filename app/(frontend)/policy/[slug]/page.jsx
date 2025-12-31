@@ -4,8 +4,6 @@ import ENDPOINTS from "@/lib/endpoints";
 import NotFound from "@/app/not-found";
 import { notFound } from "next/navigation";
 
-export const dynamic = 'force-dynamic';
-
 const policyData = async (slug) => {
     const getPolicy = async (slug) => {
         const { data } = await request.get(`${ENDPOINTS.POLICY}/${slug}`);
