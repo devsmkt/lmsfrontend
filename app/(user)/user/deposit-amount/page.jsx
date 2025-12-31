@@ -2,7 +2,6 @@ import { Deposit } from '@/app/(user)/user/(deposit)/_components/Deposit';
 import { getMetaTitle } from '@/lib/helpers';
 
 export const metadata = getMetaTitle('Deposit');
-export const dynamic = 'force-dynamic';
 export default function DepositAmount() {
     return (
         <div className="container">

@@ -1,6 +1,4 @@
 import { ImageResponse } from 'next/og'
-
-export const dynamic = 'force-dynamic';
  
 // Image metadata
 export const size = {

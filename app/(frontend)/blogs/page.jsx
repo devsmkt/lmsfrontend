@@ -6,8 +6,6 @@ import BlogCard from "./_components/BlogCard";
 
 import { notFound } from "next/navigation";
 
-export const dynamic = 'force-dynamic';
-
 export const metadata = getMetaTitle("Blog");
 
 export default async function Blogs() {

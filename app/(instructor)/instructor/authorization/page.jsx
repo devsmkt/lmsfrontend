@@ -1,7 +1,6 @@
 import { getMetaTitle } from "@/lib/helpers";
 import AuthorizationHandler from "./_components/AuthorizationHandler";
 
-export const dynamic = 'force-dynamic';
 export const metadata = getMetaTitle('Authorization');
 
 export default function Authorization() {

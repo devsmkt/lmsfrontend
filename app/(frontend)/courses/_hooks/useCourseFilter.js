@@ -88,7 +88,7 @@ const useCourseFilter = (slug = null) => {
         }
     }, [filter,fetchCourses]); 
 
-    return { loading, pageNumber, setPageNumber ,setLoading, catLoding, fetchCourses };
+    return { fetchCourses, loading, pageNumber, setPageNumber ,setLoading,catLoding };
 };
 
 export default useCourseFilter;

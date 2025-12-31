@@ -8,8 +8,7 @@ export default function PageContent({ slug, sections = [] }) {
     
     const customPageData = useSelector((state) => state.customPage.data);
 
-    const pages = customPageData?.data?.pages;
-    const page = Array.isArray(pages) ? pages.find(page => page.slug === slug) : null;
+    const page = customPageData?.data?.pages?.find(page => page.slug === slug)
 
     return (
         <>

@@ -2,7 +2,6 @@ import { getMetaTitle } from "@/lib/helpers";
 
 import Transactions from "./_components/Transactions";
 
-export const dynamic = 'force-dynamic';
 export const metadata = getMetaTitle('Transactions');
 
 export default function page() {

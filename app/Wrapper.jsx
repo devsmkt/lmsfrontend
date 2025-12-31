@@ -17,9 +17,9 @@ export default function Wrapper({ children }) {
     let basePath;
     
     if (authPrefix === '/' || !authPrefix) {
-        basePath = '/internal-api/auth';
+        basePath = '/api/auth';
     } else {
-        basePath = `${authPrefix}/internal-api/auth`;
+        basePath = `${authPrefix}/api/auth`;
     }
 
     return (

@@ -1,6 +1,5 @@
 import History from "./_components/History";
 import { getMetaTitle } from "@/lib/helpers";
-export const dynamic = 'force-dynamic';
 export const metadata = getMetaTitle('Withdraw History');
 
 export default function WithdrawHistory() {
